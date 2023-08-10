@@ -1,0 +1,50 @@
+.menu_barras {
+    display: initial;
+}
+
+.header_logo{
+    /* margin-left: 55px; */
+}
+
+.menu_links {
+    /* display: none; */
+    position: absolute;
+    left: -300px;
+    overflow-x: hidden;
+    top: 70px;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
+    width: auto;
+    z-index: 1;
+    border-radius: 10%;
+    padding: 10px;
+
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.menu_links * {
+    margin: 10px 100px 10px 10px;
+}
+
+header nav {
+    /* justify-content: flex-end; */
+    width: auto;
+}
+
+.header_botao_login{
+    display: none;
+}
+
+.header_icone_login {
+    display: flex;
+}
+
+header nav svg {
+    width: 35px;
+    fill: var(--branco);
+}
